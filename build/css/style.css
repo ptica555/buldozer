@@ -138,6 +138,7 @@ body {
   margin: 0 auto;
   width: 100%;
   max-width: 1000px;
+  position: relative;
 }
 
 /*grid*/
@@ -183,12 +184,19 @@ body {
 .xs8 {
   width: 100%;
 }
-
 /*header*/
 
 .header {
   background-color: #3f4142;
   padding: 14px 0;
+}
+
+.header-box {
+  margin-bottom: 10px;
+}
+
+.header-box:last-child {
+  margin-bottom: 0;
 }
 
 .logo {
@@ -204,7 +212,84 @@ body {
   display: block;
 }
 
+.phone {
+  display: inline-block;
+  padding-left: 16px;
+  background: url("../img/phone.png") no-repeat left center;
+  font-family: "Tahoma";
+  line-height: 1.33333333rem;
+}
 
+.phone-wrap {
+  text-align: center;
+}
+
+.phone span {
+  display: block;
+  text-align: center;
+}
+
+.phone-text {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.phone-number {
+  color: #f3af00;
+  font-size: 1.33333333rem;
+}
+.banner {
+  background-color: #949ba3;
+  padding-top: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.slider {
+  display: none;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+}
+
+.banner-header {
+  font-family: "Times New Roman";
+}
+
+.banner-header h1 {
+  font-size: 2.66666rem;
+}
+
+.banner-header h2 {
+  font-size: 1.66666rem;
+}
+
+.banner-wrap {
+  position: relative;
+}
+
+.fedback {
+  background-color: #4a4d51;
+  font-size: 0;
+}
+
+.fedback>* {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+.fedback-header h1 {
+  font-size: 1.6666rem;
+  color: #f3af00;
+}
+
+.fedback-header h2 {
+  font-size: 1rem;
+}
 @media screen and (min-width: 800px) {
   .m1 {
     width: 12.5%;
@@ -238,8 +323,14 @@ body {
     width: 100%;
   }
 
+  .header {
+    padding: 30px 0;
+  }
+
   .button {
     width: 100%;
+    position: relative;
+    top: -6px;
   }
 }
 
@@ -278,5 +369,23 @@ body {
 
   .button {
     width: 50%;
+    height: 36px;
+  }
+
+  .phone {
+    margin-left: 90px;
+    line-height: 1rem;
+  }
+
+  .phone-wrap {
+    text-align: right;
+  }
+
+  .phone-number {
+    font-size: 1rem;
+  }
+
+  .phone-text {
+    font-size: 0.77777777rem;
   }
 }

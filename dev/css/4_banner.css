@@ -1,0 +1,43 @@
+.banner{
+	background-color: #949ba3;
+	padding-top: 48px;
+	text-align: center;
+	color:#ffffff;
+}
+.slider{
+	display:none;
+	overflow: hidden;
+}
+
+.slider img{
+	width: 100%;
+}
+.banner-header{
+	font-family: "Times New Roman";
+}
+
+.banner-header h1{
+	font-size: 2.66666rem;
+}
+.banner-header h2{
+	font-size: 1.66666rem;
+}
+.banner-wrap{
+	position: relative;
+}
+.fedback{
+	background-color: #4a4d51;
+	font-size: 0;
+}
+.fedback>*{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+} 
+.fedback-header h1{
+	font-size: 1.6666rem;
+	color:#f3af00;
+}
+.fedback-header h2{
+	font-size: 1rem;
+}
